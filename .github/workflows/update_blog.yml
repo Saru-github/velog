@@ -20,7 +20,7 @@ jobs:
       run: |
         git config --global Saru 'github-actions[bot]'
         git config --global heo_dark@naver.com 'github-actions[bot]@users.noreply.github.com'
-        git push https://${{ secrets.GH_PAT }}@github.com/saruru/velog.git
+        git push https://${{ secrets.GH_PAT }}@github.com/Saru-github/velog.git
 
     - name: Set up Python
       uses: actions/setup-python@v2
